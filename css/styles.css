@@ -6,7 +6,7 @@
 }
 
 .title{
-    color: rgb(93, 97, 97);
+    color: rgb(221, 28, 92);
     font-size: 3em;
 }
 
@@ -21,8 +21,10 @@
 }
 
 .header{
-	background: rgb(221, 28, 92);
-	width: 1024px;
+    background: #D8D8D8;
+    border: 1px solid #979797; 
+    width: 100%;
+	max-width: 1024px;
     height: 80px;
     text-align: center;
     line-height: 80px;
@@ -36,7 +38,8 @@
 }
 
 .section1{
-	background: rgb(221, 28, 92);;
+    background: #D8D8D8;
+    border: 1px solid #979797; 
 	width: calc(50% - 10px);
 	height: 300px;
     margin-right: 20px;
@@ -54,7 +57,8 @@
 }
 
 .section2{
-	background: rgb(221, 28, 92);;
+    background: #D8D8D8;
+    border: 1px solid #979797; 
 	width: calc(33.3333% - (40px / 3));
 	height: 120px;
     margin-right: 20px;
@@ -68,7 +72,8 @@
 
 .parent{
     position: relative;
-    background: rgb(221, 28, 92);
+    background: #D8D8D8;
+    border: 1px solid #979797; 
     height: 200px;
     float: left;
     width: 100%;
@@ -76,7 +81,8 @@
 
 .child{
     position: absolute;
-    background: rgb(177, 175, 175);
+    background: #D8D8D8;
+    border: 1px solid #979797; 
     width: 150px;
     height: 150px;
     top: 50%;
