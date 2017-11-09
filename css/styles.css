@@ -1,6 +1,6 @@
-h1{
+.title{
     color: rgb(93, 97, 97);
-    position: center;
+    font-size: 3em;
 }
 
 .body{	
@@ -16,7 +16,9 @@ h1{
 .header{
 	background: rgb(221, 28, 92);
 	width: 1024px;
-	height: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -50,11 +52,30 @@ h1{
 	height: 120px;
     margin-right: 20px;
     float: left;
+    margin-bottom: 20px;
 }
 
 .section2:last-child{
     margin-right: 0;
 }
 
+.parent{
+    position: relative;
+    background: rgb(221, 28, 92);
+    height: 200px;
+    float: left;
+    width: 100%;
+}
+
+.child{
+    position: absolute;
+    background: rgb(177, 175, 175);
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;    
+    transform: translateY(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);    
+}
 
 
