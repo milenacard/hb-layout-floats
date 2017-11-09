@@ -1,3 +1,60 @@
 h1{
-    color: rgb(51, 207, 207);
+    color: rgb(93, 97, 97);
+    position: center;
 }
+
+.body{	
+	justify-content: center;
+}
+
+.container{
+	margin: auto;
+	width: 100%;
+	max-width: 1024px;
+}
+
+.header{
+	background: rgb(221, 28, 92);
+	width: 1024px;
+	height: 80px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.two-columns{
+    font-size: 0;
+    
+}
+
+.section1{
+	background: rgb(221, 28, 92);;
+	width: calc(50% - 10px);
+	height: 300px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.section1:last-child{
+    margin-right: 0;
+}
+
+.three-columns{
+    font-size: 0;
+    
+}
+
+.section2{
+	background: rgb(221, 28, 92);;
+	width: calc(33.3333% - (40px / 3));
+	height: 120px;
+    margin-right: 20px;
+    float: left;
+}
+
+.section2:last-child{
+    margin-right: 0;
+}
+
+
+
