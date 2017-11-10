@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 
@@ -10,9 +10,6 @@
     font-size: 3em;
 }
 
-.body{	
-	justify-content: center;
-}
 
 .header{
     background: #D8D8D8;
@@ -22,10 +19,9 @@
     height: 80px;
     text-align: center;
     line-height: 80px;
-    justify-content: center;
     margin-bottom: 20px;
     position: fixed;
-    top: 0%;
+    top: 0;
     left: 50%;    
     transform: translateX(-50%); 
     z-index: 1;
@@ -33,15 +29,14 @@
 
 
 .container{
-	margin: auto;
+	margin: 0 auto;
 	width: 100%;
     max-width: 1024px;
     margin-top: 100px;
 }
 
-.two-columns{
-    font-size: 0;
-    
+.subcontainer{
+    overflow: hidden;
 }
 
 .section1{
@@ -56,11 +51,6 @@
 
 .section1:last-child{
     margin-right: 0;
-}
-
-.three-columns{
-    font-size: 0;
-    
 }
 
 .section2{
@@ -82,7 +72,6 @@
     background: #D8D8D8;
     border: 1px solid #979797; 
     height: 200px;
-    float: left;
     width: 100%;
 }
 
